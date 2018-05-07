@@ -23,9 +23,9 @@
 * 基于统计的方法 Stanford Word Segmenter: <https://nlp.stanford.edu/software/segmenter.shtml>  
 
 ## 3. 执行命令  
-* 3.0 下载词库文件解压放置在文件夹corpus中
-* 3.1 生成词向量模型model_vector_people.m  
-  `python embedding_model.py`  
+* 3.0 下载词库文件解压放置在文件夹corpus中  
+* 3.1 生成词向量模型model_vector_people.m  
+  `python embedding_model.py`  
 * 3.2 执行train.py文件训练模型  
   `python train.py`  
 * 3.3 特殊函数说明(train.py)  
