@@ -35,10 +35,13 @@ class Sentences:
 
 if __name__ == "__main__":
     
+    if os.path.exists("model"):
+        os.makedirs("model")
+    
     sentences = Sentences([corpus_path + os.sep + filename for filename in os.listdir(corpus_path)])
     model=gensim.models.Word2Vec(sentences, size=128, window=5, min_count=1, iter=100, workers=4)
-    model.save('model_vector_people.m')
-    model.wv.save_word2vec_format('model_vector_people.txt',binary=False)
+    model.save('model/model_vector_people.m')
+    model.wv.save_word2vec_format('model/model_vector_people.txt',binary=False)
     
     '''    
     # gensim.models.Word2Vec参数说明
