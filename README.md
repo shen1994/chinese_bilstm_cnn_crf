@@ -77,3 +77,5 @@
 ## 4. 参考链接  
 * 代码库: <https://github.com/FanhuaandLuomu/BiLstm_CNN_CRF_CWS>
 * 讲解：<https://www.jianshu.com/p/5fea8f42caa9>  
+* 论文参考链接: <http://www.aclweb.org/anthology/N16-1030>  
+
