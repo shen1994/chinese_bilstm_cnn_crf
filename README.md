@@ -1,6 +1,8 @@
 # chinese_bilstm_cnn_crf
 
 ## 0. 效果展示  
+* 0.1 训练展示  
+![image](https://github.com/shen1994/README/raw/master/images/bilstm_cnn_crf_train.jpg)  
 
 ## 1. 安装相关文件  
 * 人民日报词库下载私人地址  
