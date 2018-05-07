@@ -38,13 +38,13 @@
   一	M  
   日	E  
   documents_length = create_documents()--->创建data.data和label.data文件  
-  data.data
+  data.data  
   人	民	网	一	月	一	日	讯	据	纽	约	时	报	报	道	，  
   美	国	华	尔	街	股	市	在	二	零	一	三	年	的	最	后	一	天	继	续	上	涨	，  
   和	全	球	股	市	一	样  
   label.data  
-  B	M	E	B	M	M	E	S	S	B	E	B	E	B	E	S	 
-  B	E	B	M	E	B	E	S	B	M	M	M	E	S	B	E	B	E	B	E	B	E	S	 
+  B	M	E	B	M	M	E	S	S	B	E	B	E	B	E	S  
+  B	E	B	M	E	B	E	S	B	M	M	M	E	S	B	E	B	E	B	E	B	E	S  
   S	B	E	B	E	B	E	S  
   
   
