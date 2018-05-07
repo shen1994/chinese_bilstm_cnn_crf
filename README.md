@@ -36,7 +36,7 @@
   `python train.py`  
 * 3.3 特殊函数说明(train.py)  
 
-  3.3.1 create_label_data(word_dict, raw_train_file)--->创建train.data文件  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.1 create_label_data(word_dict, raw_train_file)--->创建train.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人	B  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;民	M  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网	E  
@@ -45,7 +45,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一	M  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日	E  
   
-  3.3.2 documents_length = create_documents()--->创建data.data和label.data文件  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.2 documents_length = create_documents()--->创建data.data和label.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data.data  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人	民	网	一	月	一	日	讯	据	纽	约	时	报	报	道	，  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美	国	华	尔	街	股	市	在	二	零	一	三	年	的	最	后	一	天	继	续	上	涨	，  
@@ -55,13 +55,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B	E	B	M	E	B	E	S	B	M	M	M	E	S	B	E	B	E	B	E	B	E	S  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S	B	E	B	E	B	E	S  
   
-  3.3.3 lexicon, lexicon_reverse = create_lexicon(word_dict)--->创建lexicon.pkl文件  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.3 lexicon, lexicon_reverse = create_lexicon(word_dict)--->创建lexicon.pkl文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'这': 75, '云': 307, '伏': 92, '共': 139, '问': 140, '跑': 308...}  
 
-  3.3.4 label_2_index = create_label_index()--->创建label_2_index  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.4 label_2_index = create_label_index()--->创建label_2_index  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'P':0, 'B':1, 'M':2, 'E':3, 'S':4, 'U':5}  
 
-  3.3.5 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3.5 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_index.data  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11	14	118	2	39	2	8	172	102	295	293	131	30	30	29	1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;117	12	284	47	212	76	56	7	13	19	2	16	5	3	61	75	2	459	127	79	46	93	1  
@@ -71,7 +71,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1	3	1	2	3	1	3	4	1	2	2	2	3	4	1	3	1	3	1	3	1	3	4  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4	1	3	1	3	1	3	4  
   
-* 执行测试命令  
+* 3.4 执行测试命令  
   `python test.py`  
   
   
