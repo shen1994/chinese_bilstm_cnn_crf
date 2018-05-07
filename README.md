@@ -53,7 +53,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'这': 75, '云': 307, '伏': 92, '共': 139, '问': 140, '跑': 308...}  
 
   3.3.4 label_2_index = create_label_index()--->创建label_2_index  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'P':0, 'B':1, 'M':2, 'E':3, 'S':4, 'U':5}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'P':0, 'B':1, 'M':2, 'E':3, 'S':4, 'U':5}  
   
   3.3.5 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_index.data  
