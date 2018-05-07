@@ -74,4 +74,6 @@
 * 3.4 执行测试命令  
   `python test.py`  
   
-  
+## 4. 参考链接  
+* 代码库: <https://github.com/FanhuaandLuomu/BiLstm_CNN_CRF_CWS>
+* 讲解：<https://www.jianshu.com/p/5fea8f42caa9>  
