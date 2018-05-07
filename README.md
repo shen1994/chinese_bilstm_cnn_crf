@@ -51,8 +51,11 @@
   
   3.3.3 lexicon, lexicon_reverse = create_lexicon(word_dict)--->创建lexicon.pkl文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'这': 75, '云': 307, '伏': 92, '共': 139, '问': 140, '跑': 308...}  
-  
-  3.3.4 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
+
+  3.3.4 label_2_index = create_label_index()--->创建label_2_index  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'P':0, 'B':1, 'M':2, 'E':3, 'S':4, 'U':5}
+  
+  3.3.5 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_index.data  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11	14	118	2	39	2	8	172	102	295	293	131	30	30	29	1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;117	12	284	47	212	76	56	7	13	19	2	16	5	3	61	75	2	459	127	79	46	93	1  
