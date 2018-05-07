@@ -19,8 +19,9 @@
 * 模型搭建第三方库keras-contrib-master.zip  
   私人地址: 链接: <https://pan.baidu.com/s/16D3nntBpDVVDqV1B66f7_Q> 密码: ibze  
 * 绘制模型结构图所需文件graphviz-2.38.rar  
-  官方下载链接: <https://graphviz.gitlab.io/download/>  
-  私人地址: 链接: <https://pan.baidu.com/s/1ZxSE96upkPLkhjeaam9FIQ> 密码: 15v6  
+  特殊要求: 添加安装目录下的bin路径到windows系统路径  
+  官方下载链接: <https://graphviz.gitlab.io/download/>  
+  私人地址: 链接: <https://pan.baidu.com/s/1ZxSE96upkPLkhjeaam9FIQ> 密码: 15v6  
 * 绘制模型结构图所需文件pydot-1.2.4.tar.gz  
   私人地址: 链接: <https://pan.baidu.com/s/1xnv6TfpUBWAKbLrDYQL0Lg> 密码: gvt3  
   
