@@ -71,3 +71,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1	3	1	2	3	1	3	4	1	2	2	2	3	4	1	3	1	3	1	3	1	3	4  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4	1	3	1	3	1	3	4  
   
+* 执行测试命令  
+  `python test.py`  
+  
+  
