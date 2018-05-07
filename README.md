@@ -54,7 +54,7 @@
 
   3.3.4 label_2_index = create_label_index()--->创建label_2_index  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{'P':0, 'B':1, 'M':2, 'E':3, 'S':4, 'U':5}  
-  
+
   3.3.5 create_matrix(lexicon, label_2_index)--->创建data_index.data和label_index.data文件  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_index.data  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11	14	118	2	39	2	8	172	102	295	293	131	30	30	29	1  
