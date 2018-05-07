@@ -31,13 +31,13 @@
 * 3.3 特殊函数说明(train.py)  
 
   3.3.1 create_label_data(word_dict, raw_train_file)--->创建train.data文件  
-        人	B  
-        民	M  
-        网	E  
-        一	B  
-        月	M  
-        一	M  
-        日	E  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人	B  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;民	M  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网	E  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一	B  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月	M  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一	M  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日	E  
   
   3.3.2 documents_length = create_documents()--->创建data.data和label.data文件  
         data.data  
