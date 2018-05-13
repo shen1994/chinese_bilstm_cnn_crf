@@ -76,8 +76,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4	1	3	1	3	1	3	4  
   
 * 3.4 执行测试命令  
-  `python test.py`  
-  
+  `from word_cut import WordCut`  
+  `word_cut = WordCut()`  
+  `text_list_cut = word_cut([u"我是中国人", u"希望你喜欢我"])`  
+  `print(text_list_cut)`  
+  
 ## 4. 参考链接  
 * 代码库: <https://github.com/FanhuaandLuomu/BiLstm_CNN_CRF_CWS>
 * 讲解：<https://www.jianshu.com/p/5fea8f42caa9>  
