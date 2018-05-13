@@ -12,7 +12,7 @@
 ## 1. 安装相关文件  
 * 人民日报词库下载私人地址  
   私人地址: 链接: <https://pan.baidu.com/s/13Zl7R_QLj-_cepwtuigyUg> 密码: 9yqf  
-* 训练好的中文分词模型下载地址:  
+* 训练好的中文分词模型下载地址(下载后将文件夹更名为model,然后直接可以运行test.py进行测试):  
   私人地址: 链接: <https://pan.baidu.com/s/1EahCeXSNFpHQcC57Extv1Q> 密码: aufs  
 * 安装gensim-3.4.0.tar.gz文件,制作word2vec  
   官方链接: <https://pypi.org/project/gensim/#files>  
