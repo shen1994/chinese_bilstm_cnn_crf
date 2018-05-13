@@ -29,7 +29,7 @@
   私人地址: 链接: <https://pan.baidu.com/s/1xnv6TfpUBWAKbLrDYQL0Lg> 密码: gvt3  
   
 ## 2. 传统方法参考链接  
-* 基于检索的方法mmseg: <http://technology.chtsai.org/mmseg/>  
+* 基于检索的方法 mmseg: <http://technology.chtsai.org/mmseg/>  
 * 基于统计的方法 Stanford Word Segmenter: <https://nlp.stanford.edu/software/segmenter.shtml>  
 
 ## 3. 执行命令  
