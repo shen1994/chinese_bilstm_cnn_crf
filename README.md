@@ -6,6 +6,7 @@
 * 0.2 测试展示(仅1000条记录训练的结果)  
 ![image](https://github.com/shen1994/README/raw/master/images/bilstm_cnn_crf_test.jpg)  
 * 0.3 模型结构展示  
+![image](https://github.com/shen1994/README/raw/master/images/bilstm_cnn_crf_model.jpg)  
 
 
 ## 1. 安装相关文件  
