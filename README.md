@@ -77,8 +77,8 @@
   
 * 3.4 执行测试命令  
   `from word_cut import WordCut`  
-  `word_cut = WordCut()`  
-  `text_list_cut = word_cut.cut([u"我是中国人", u"希望你喜欢我"])`  
+  `text_cut_object = WordCut()`  
+  `text_list_cut = text_cut_object.cut([u"我是中国人", u"希望你喜欢我"])`  
   `print(text_list_cut)`  
   
 ## 4. 参考链接  
